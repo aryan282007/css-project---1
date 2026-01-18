@@ -9,11 +9,12 @@ padding-left: 20px;
 color: #8b9eb7;
 }
 nav{
-  height: 65px;
+  height: 60px;
   background-color: #632a50;
   color: rgb(255, 255, 255);
-  display: flex;
-  
+  position: fixed;
+  width: 100%;
+  top: 0;
 }
 nav div p{
   color: #8b9eb7;
@@ -30,7 +31,7 @@ nav div p{
 }
 .card{
 background-color: rgb(39, 85, 126);
-height: 313px;
+height: 350px;
 width: 250px;
 margin: 20px;
 border-radius: 10px;
@@ -51,10 +52,32 @@ img{
   justify-content: center;
 } 
 .main-content{
-  
   display: flex;
   justify-content: flex-start;
   align-items: center;
   flex-wrap: wrap;
   margin-left: 20px;
+}
+main{
+  padding-top: 60px;
+}
+footer{
+  height: 200px;
+  background-color:black;
+  margin-top: 20px;
+  color: whitesmoke;
+  display: flex;
+  justify-content: center; 
+}
+#conclusion{
+  text-align: center;
+  margin-top: 30px;
+  position: relative;
+  left: 50%;
+  color: white;
+}
+i{
+  display: block;
+  color: white;
+  font-size: 30px;
 }
