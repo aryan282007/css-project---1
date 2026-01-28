@@ -1,14 +1,13 @@
-*{
+* {
   margin: 0;
   padding: 0;
-
 }
-#logo{
-margin-top: 10px;
-padding-left: 20px;
-color: #8b9eb7;
+#logo {
+  margin-top: 10px;
+  padding-left: 20px;
+  color: #8b9eb7;
 }
-nav{
+nav {
   height: 60px;
   background-color: #632a50;
   color: rgb(255, 255, 255);
@@ -16,78 +15,82 @@ nav{
   width: 100%;
   top: 0;
 }
-nav div p{
+nav div p {
   color: #8b9eb7;
   margin-top: 10px;
   font-size: 20px;
   padding-left: 40%;
   margin-top: 0px;
 }
-.navpara{
+.navpara {
   position: absolute;
   font-size: 16px;
   right: 10px;
   top: 15px;
 }
-.card{
-background-color: rgb(39, 85, 126);
-height: 350px;
-width: 250px;
-margin: 20px;
-border-radius: 10px;
-box-shadow: 8px 8px 8px rgba(0,0,0,0.1);
-color: white;
+.card {
+  background-color: rgb(39, 85, 126);
+  height: 350px;
+  width: 250px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.1);
+  color: white;
 }
-img{
+img {
   width: 100%;
   height: 50%;
   border-radius: 10px;
-
 }
-.dog_name{
+.dog_name {
   font-size: 20px;
 }
-#cag{
+#cag {
   display: flex;
   justify-content: center;
-} 
-.main-content{
+}
+.main-content {
   display: flex;
   justify-content: flex-start;
   align-items: center;
   flex-wrap: wrap;
   margin-left: 20px;
 }
-main{
+main {
   padding-top: 60px;
+  background-color: #c2e812;
 }
-footer{
+footer {
   height: 200px;
-  background-color:black;
+  background-color: #745296;
   margin-top: 20px;
   color: whitesmoke;
   display: flex;
-  justify-content: center; 
+  justify-content: center;
+  margin-top: 0;
 }
-#conclusion{
+#conclusion {
   text-align: center;
   margin-top: 30px;
   position: relative;
   left: 50%;
   color: white;
 }
-.i{
+.contact {
+  justify-items: center;
   justify-self: center;
-  font-size: 30px;
+  font-size: 25px;
   color: aliceblue;
   margin-left: 10px;
   align-self: center;
 }
-
-#search{
+#link {
+  margin-left: 20%;
+}
+#search {
   background-color: #8b9eb7;
   margin-left: 46%;
-  display:inline-block;
+  display: inline-block;
   justify-content: center;
   text-decoration: none;
   border: 2px solid black;
@@ -95,6 +98,70 @@ footer{
   font-size: 30px;
   border-radius: 15px;
 }
-@media screen {
-  
+i:hover {
+  font-size: 50px;
+  transition: 2s;
+}
+.card:hover {
+  width: 280px;
+  height: 380px;
+  transition: 3s;
+}
+#search:hover {
+  font-size: 40px;
+  transition: 3s;
+}
+#cr {
+  margin-left: 45%;
+  justify-items: center;
+  font-size: 13px;
+}
+@media (max-width: 768px) {
+  .navpara {
+    display: none;
+    position: absolute;
+    font-size: 10px;
+    right: 10px;
+    top: 15px;
+  }
+
+  .card {
+    background-color: rgb(39, 85, 126);
+    height: 230px;
+    width: 150px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.1);
+    color: white;
+  }
+
+  .dog_name {
+    font-size: 12px;
+  }
+  #font {
+    font-size: 10px;
+  }
+  .card:hover {
+    width: 160px;
+    height: 250px;
+    transition: 3s;
+  }
+
+  #search {
+    background-color: #8b9eb7;
+    position: absolute;
+    position: fixed;
+    font-size: 10px;
+    right: 10px;
+    top: 15px;
+    text-decoration: none;
+    border: 2px solid black;
+    color: rgb(0, 60, 255);
+    font-size: 30px;
+    border-radius: 15px;
+  }
+  #search:hover {
+    font-size: 50px;
+    transition: 3s;
+  }
 }
