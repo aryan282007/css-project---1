@@ -128,7 +128,7 @@ i:hover {
   .card {
     background-color: rgb(39, 85, 126);
     height: 200px;
-    width: 43%;
+    width: 42%;
     margin: 10px;
     border-radius: 10px;
     box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.1);
@@ -142,7 +142,7 @@ i:hover {
     font-size: 8px;
   }
   .card:hover {
-    width: 130px;
+    width: 44%;
     height: 210px;
     transition: 3s;
   }
