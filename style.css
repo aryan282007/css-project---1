@@ -128,7 +128,7 @@ i:hover {
   .card {
     background-color: rgb(39, 85, 126);
     height: 200px;
-    width: 120px;
+    width: 43%;
     margin: 10px;
     border-radius: 10px;
     box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.1);
@@ -136,7 +136,7 @@ i:hover {
   }
 
   .dog_name {
-    font-size: 10px;
+    font-size: 11px;
   }
   #font {
     font-size: 8px;
